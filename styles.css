@@ -1,11 +1,28 @@
-h1 {
+#logo {
 
-    color: red;
+    display: block;
+    margin: auto;
+    width: 25%;
+    padding-top: 10%;
 
 }
 
-p {
+.center {
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+}
 
-    color: blue;
+#searchBar {
+
+    width: 50%;
+    border-radius: 25px;
+
+}
+
+#topBar {
+
+    text-align: right;
 
 }
