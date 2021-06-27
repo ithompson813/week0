@@ -1,3 +1,5 @@
+
+@media screen and (min-width: 600px) {
 #logo {
 
     display: block;
@@ -6,13 +8,37 @@
     padding-top: 10%;
 
 }
-
-.center {
-    display: block;
-    text-align: center;
-    margin: auto;
-    width: 60%;
 }
+
+@media screen and (max-width: 599px) {
+    #logo {
+
+        display: block;
+        margin: auto;
+        width: 75%;
+        padding-top: 30%;
+    
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .center {
+        display: block;
+        text-align: center;
+        margin: auto;
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .center {
+        display: block;
+        text-align: center;
+        margin: auto;
+        width: 100%;
+    }
+}
+
 
 #searchBar {
 
@@ -24,5 +50,27 @@
 #topBar {
 
     text-align: right;
+
+}
+
+
+#advanced {
+
+    color: white;
+    background-color: #1979a9;
+    
+
+}
+
+table {
+
+    display: block;
+    width: 75%;
+
+}
+
+a {
+
+    padding: 1%;
 
 }
